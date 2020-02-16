@@ -1,0 +1,989 @@
+@media all and (max-width: 2960px) and (min-width: 520px), (min-width: 1151px) {
+    html {
+       /* height: 610px;
+        width: 1440px;*/
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x:hidden;
+        /*width:1440px;
+        height: 670px;*/  
+    }
+
+    div.sidebar {   
+        background-color: transparent;
+        border-radius: 5px;
+       /* width:200px;
+        height: 450px;*/
+        padding: 15px;
+        position:absolute;
+        left:5px;
+        top:140px;
+        z-index: 2;
+    }
+
+    div.tips {   
+        background-color: transparent;
+        border-radius: 5px;
+       /* width:300px;
+        height: 180px;*/
+        padding: 15px;
+        position:absolute;
+        left:940px;
+        top:195px;
+    }
+
+    div.rightbox {   
+        background-color: transparent;
+        border-radius: 5px;
+       /* width:300px;
+        height: 150px;*/
+        padding: 15px;
+        position:absolute;
+        left:940px;
+        top:420px;
+    }
+
+    footer.main{
+        background-image: url("css-photos/footer.png");
+        background-repeat: no-repeat;
+        /*width:1440px;*/
+        height:20px;
+        padding: 15px;
+        position:absolute;
+        left:-5px;
+        right:-5px;
+        top:630px;
+    }
+
+    footer.docu {
+        background-image: url("css-photos/footer.png");
+        background-repeat: no-repeat;
+       /* width:1440px;*/
+        height:20px;
+        padding: 15px;
+        position:absolute;
+        left:-5px;
+        right:-5px;
+        bottom:-810px;
+    }
+
+    footer.book {
+        background-image: url("css-photos/footer.png");
+        background-repeat: no-repeat;
+        /*width:1440px;*/
+        height:20px;
+        padding: 15px;
+        position:absolute;
+        left:-5px;
+        right:-5px;
+        bottom:-750px;
+    }
+
+    div.header {
+        background-image: url("css-photos/header-final.jpg");
+        background-size: contain;
+        width:1300px;
+        height:155px;
+        position:absolute; 
+        top:-5px;   
+        left:-5px;
+        right:-5px;
+    }
+
+    div.welcome {
+        background-color: #5D5D5D;
+        width:260px;
+        height:3px;
+        padding:1em;
+        position:absolute;
+        top:0px;
+        left:980px;
+        clear: left;
+    }
+
+    text.header {
+        text-align: center;
+        font-family: "Neou";
+        font-size: 18px;
+        color: white;
+    }
+
+    text.normal {
+        font-family: "Segoe UI Symbol";
+        font-size: 17px;
+        color: white;
+    }
+
+    text.w-normal {
+        font-family: "Segoe UI Symbol";
+        font-size: 14px;
+        color: white;
+    }
+
+    text.title {
+        text-align: center;
+        font-family: "Neou";
+        font-size: 22px;
+        color: white;
+    }
+
+    text.title2 {
+        text-align: center;
+        font-family: "Neou";
+        font-size: 20px;
+        color: white;
+    }
+
+    text.b-text {
+        font-family: "Segoe UI Symbol";
+        font-size: 16px;
+        color: #515453;
+    }
+
+    text.label {
+        font-family: "Segoe UI Symbol";
+        font-size: 14px;
+        color: #515453;
+    }
+
+    text.bl-text {
+        font-family: "Segoe UI Symbol";
+        font-size: 15px;
+        color: #515453;
+    }
+
+    p.text {
+        text-align: center;
+        font-family: "Segoe UI Symbol";
+        font-size: 15px;
+        color: white;
+    }
+
+    p.b-text {
+        font-family: "Segoe UI Symbol";
+        font-size: 15px;
+        color: #515453;
+    }
+
+
+    p.footitle {
+        text-align: center;
+        font-family: "Neou";
+        font-size: 12px;
+        color: white;
+    }
+    p.foosubtitle {
+        text-align: center;
+        font-family: "Segoe UI Symbol";
+        font-size: 9px;
+        color: white;
+    }
+
+    .sidebar-button{
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        color: #515453;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: "Segoe UI Symbol";
+        width: 180px;
+        height: 20px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    .sidebar-button:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+    .search-button{
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 5px;
+        color: #515453;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        font-family: "Segoe UI Symbol";
+        width: 180px;
+        height: 20px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    .search-button:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 5px;
+    }
+
+    #fileupload{
+    font-family: "Segoe UI Symbol";
+    font-size: 14px;
+    color: #515453;
+    }            
+
+    #fileupload::-webkit-file-upload-button {
+        background-color: #FFE164;
+        border: #FFE164;
+        color: #515453;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "Segoe UI Symbol";
+        width: 110px;
+        height: 30px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    #fileupload::-webkit-file-upload-button:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-radius: 1px;
+        border-color: #515453;
+        cursor: pointer;
+    }
+
+    .button {
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 5px;
+        color: #515453;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 17px;
+        font-family: "Segoe UI Symbol";
+        width: 100px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .button:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .lilbutton {
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        color: #515453;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: "Segoe UI Symbol";
+        width: 160px;
+        height: 40px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .lilbutton:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+        cursor: pointer;
+    }
+
+
+    nav.vertical{
+        position:relative;
+        width:200px;
+    }
+
+    nav.vertical ul{
+        list-style: none;
+    }
+
+    nav.vertical li{
+        position:relative;
+    }
+
+    nav.vertical a{
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        color: #515453;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        font-family: "Segoe UI Symbol";
+        width: 180px;
+        height: 20px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+    }
+
+    nav.vertical li:hover > a{
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+
+    nav.vertical ul ul{
+        position:absolute;
+        left:0%;
+        top:0;
+        width:100%;
+        visibility:hidden;
+        opacity:0;
+        transition: transform 0.2s;
+        transform: translateX(50px);
+    }
+
+    nav.vertical li:hover > ul{
+        top:-60%;
+        left:100%;
+        visibility:visible;
+        opacity:1;
+        transform: translateX(0px);
+    }
+
+    .search-buttonbox {
+        margin:100px auto;
+    }
+    .search-box {
+        width: 330px;
+        padding: 15px;
+    }
+
+    .search-box input {
+        width: 210px;
+        height: 20px;
+        padding: 10px 5px;
+        float: left;
+        font: bold 15px 'Raleway', sans-serif;
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;
+    }
+    .search-box input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    .search-box input::-webkit-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .search-box input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .search-box input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    .search-box button {
+        overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 110px;
+        font: 15px/40px 'Raleway', sans-serif;
+        color: #515453;
+        text-transform: uppercase;
+        background: #FFE164;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }
+    .search-box button:hover{
+        background: #515453;
+        color: white;
+    }
+    .search-box button:active,
+
+    .search-box button:focus{
+        background: #FFE164;
+    }
+    .search-box button:before {
+        content: '';
+        position: absolute;
+        border-width: 8px 8px 8px 0;
+        border-style: solid solid solid none;
+        border-color: transparent #FFE164 transparent;
+        top: 12px;
+        left: -6px;
+    }
+    .search-box button:hover:before{   
+        border-right-color: #515453;
+    }
+    .search-box button:focus:before{
+        border-right-color: #FFE164;
+    }
+    .search-box button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+    .mySlides {
+        display:none;
+        cursor: pointer;
+    }
+    .animate{
+        -webkit-animation:animateleft 0.4s;
+        animation:animateleft 0.4s
+    }
+
+    @-webkit-keyframes animateleft{
+    from{left:-300px;opacity:0} 
+    to{left:0;opacity:1}}
+
+    @keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+
+    div.insrt-hdr{
+        background-color: #FFE164;
+        border-radius: 5px;
+        width:200px;
+        height: 20px;
+        float:right;
+        padding: 10px;
+    }
+
+    table{
+        width:400px;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+      z-index: 3;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 160px;
+      padding: 20px;
+      background: rgba(9,7,5,0.7);
+      border-radius: 5px;
+      width: 30%;
+      height: 15%;
+      position: absolute;
+      left:305px;
+      transition: all 5s ease-in-out;
+      z-index: 3;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+    .popup .close:hover {
+      color: #FFE164;
+    }
+    .popup .content {
+      max-height: 100%;
+      overflow: auto;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+
+    .switch input {display:none;}
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: black;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 20px;
+      width: 20px;
+      left: 8px;
+      bottom: 8px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider {
+      background-color: #FFE164 ;
+    }
+
+    input:focus + .slider {
+      box-shadow: 0 0 1px #FFE164;
+    }
+
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+
+    .slider.round {
+      border-radius: 34px;
+    }
+
+    .slider.round:before {
+      border-radius: 50%;
+    }
+
+    div#home_gif{
+        background-color: transparent;
+        border-radius: 5px;
+        width:657px;
+        height:auto;
+        min-height:345px;
+        height:auto !important;   
+        margin-left:auto;
+        margin-right:auto;
+        padding: 15px;
+        position:absolute;
+        left:255px;
+        top:155px;    
+    }
+
+
+    div.bodybox{
+        background-color: rgba(5,4,2,0.1);
+        border-radius: 5px;
+        width:657px;
+        height:auto;
+        min-height:345px;
+        height:auto !important;   
+        margin-left:auto;
+        margin-right:auto;
+        padding: 15px;
+        position:absolute;
+        left:250px;
+        top:155px;    
+    }
+
+    div.bodybox input[type=text] {
+        width: 75%;
+        padding: 8px;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    div.bodybox input[type=text]:focus {
+        border: 3px solid #555;
+    }
+
+    div.bodybox input[type=number] {
+        width: 75%;
+        padding: 8px;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    div.bodybox input[type=number]:focus {
+        border: 3px solid #555;
+    }
+
+    div.bodybox input[type=date] {
+        width: 40%;
+        padding: 8px;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    div.bodybox input[type=date]:focus {
+        border: 3px solid #555;
+    }
+
+    div.bodybox textarea {
+        padding: 8px;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    div.bodybox textarea:focus {
+        border: 3px solid #555;
+    }
+
+
+    div.bodybox input[type=radio] {
+      -webkit-appearance:none;
+      width:20px;
+      height:20px;
+      border:1px solid darkgray;
+      border-radius:50%;
+      outline:none;
+      box-shadow:0 0 5px 0px gray inset;
+      cursor:pointer;
+    }
+    div.bodybox input[type=radio]:hover {
+      box-shadow:0 0 5px 0px orange inset;
+    }
+
+    div.bodybox input[type=radio]:before {
+      content:'';
+      display:block;
+      width:60%;
+      height:60%;
+      margin: 20% auto;    
+      border-radius:50%;  
+    }
+
+    div.bodybox input[type=radio]:checked:before {
+      background:goldenrod;
+    }
+
+
+    div.bodybox input[type=range]{
+        -webkit-appearance: none;
+        cursor:pointer;
+    }
+
+    div.bodybox input[type=range]::-webkit-slider-runnable-track {
+        width: 300px;
+        height: 5px;
+        background: #ddd;
+        border-color: #ddd;
+        border-radius: 3px;
+    }
+
+    div.bodybox input[type=range]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: none;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        background: goldenrod;
+        margin-top: -4px;
+    }
+
+    div.bodybox input[type=range]:focus {
+        outline: none;
+    }
+
+    div.bodybox input[type=range]:focus::-webkit-slider-runnable-track {
+        background: #ccc;
+    }
+
+    div.bodybox input [type=file]{
+        background-color: #FFE164;
+        border: #FFE164;
+        border-style: solid;
+        border-width: 3px;
+        color: #515453;
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        font-family: "Segoe UI Symbol";
+        width: 150px;
+        height: 25px;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    div.bodybox input [type=file]:hover {
+        background-color: white; 
+        color: #515453;
+        border: #515453;
+        border-style: solid;
+        border-width: 3px;
+        cursor: pointer;
+    }
+
+
+
+    div.insrt-mainhdr{
+        background-color: #FFE164;
+        border-radius: 5px;
+        width:230px;
+        height: 25px;
+        padding: 10px;
+    }
+
+    div.insrt-hdr{
+        background-color: #FFE164;
+        border-radius: 5px;
+        width:240px;
+        height: 20px;
+        padding: 10px;
+    }
+
+    table{
+        width:650px;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .popup {
+      margin: 160px;
+      padding: 20px;
+      background: rgba(9,7,5,0.7);
+      border-radius: 5px;
+      width: 30%;
+      height: 15%;
+      position: absolute;
+      left:305px;
+      transition: all 5s ease-in-out;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+    }
+    .popup .close:hover {
+      color: #FFE164;
+    }
+    .popup .content {
+      max-height: 100%;
+      overflow: auto;
+    }
+
+    #clockdate-full {
+        width:330px;
+        height:160px;
+    }
+
+    #clock-large {
+    background-color:#393535;
+    font-family: 'Neou', sans-serif;
+    font-size:30px;
+    text-shadow:0px 0px 1px white;
+    color: white;
+    }
+    #clock-large span {
+        color:white; 
+        text-shadow:0px 0px 1px white;
+        font-size:25px;
+        position:relative; }
+
+    #date-large {
+        background-color:#393535;
+        letter-spacing:0px;
+        font-size:18px;
+        font-family: 'Neou';
+        color: white;
+    }
+
+    input[type=password] {
+        font-size:18px;
+        width: 30%;
+        padding: 8px;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    input[type=password]:focus {
+        border: 3px solid #555;
+    }
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 340px;
+        background-color: #FFE164;
+        color: #515453;
+        font-size: 12px;
+        font-family: "Segoe UI Symbol";
+        text-align: left;
+        text-decoration: none;
+        border-radius: 6px;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 1;
+        top: -5px;
+        left: 110%;
+    }
+
+    .tooltip .tooltiptext::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent #FFE164 transparent transparent;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+    a.w3-button{color:#000;background-color:#f1f1f1;padding:8px 16px}a.w3-button:hover{color:#000!important;background-color:#ccc!important}
+    a.w3-btn,.w3-btn-floating,a.w3-btn-floating-large,a.w3-closenav,a.w3-opennav,a.w3-btn-block,a.w3-button{}   
+    a.w3-btn-floating,a.w3-btn-floating-large{}
+    a.w3-btn-floating{}.w3-btn-floating-large{width:56px;height:56px;line-height:56px}
+
+    a.notifbttn:hover{
+        box-shadow:0 8px 16px 0 rgba(255,120,120,0.2),0 6px 20px 0 rgba(255,120,120,0.2)
+    }
+    a.notifbttn{
+        -webkit-touch-callout:none;
+        -webkit-user-select:none;
+        -khtml-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select:none;
+        text-decoration: none;
+        display:inline-block;
+        text-align:center;
+        color:#fff;
+        background-color:#ff5050;
+        position:relative;
+        overflow:hidden;
+        z-index:1;
+        padding:0;
+        border-radius:50%;
+        cursor:pointer;
+        font-size:14px;
+        font-family: 'Neou';
+        width:20px;
+        height:20px;
+        line-height:20px
+    }
+
+}
+
+
+
+

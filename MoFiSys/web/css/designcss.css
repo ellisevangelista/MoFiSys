@@ -1,0 +1,299 @@
+input[type=text] {
+    width: 50%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=password] {
+    font-size:18px;
+    width: 50%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=password]:focus {
+    border: 3px solid #555;
+}
+
+p.b-text {
+    font-family: "Segoe UI Symbol";
+    font-size: 15px;
+    color: #515453;
+}
+
+
+.button{
+    background-color: #FFE164;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    color: #515453;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Segoe UI Symbol";
+    width: 70px;
+    height: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color: white; 
+    color: #515453;
+    border: transparent;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    cursor:pointer;
+}
+
+.update{
+    background-color: #FFE164;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    color: #515453;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: "Segoe UI Symbol";
+    width: 100px;
+    height: 28px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.update:hover {
+    background-color: white; 
+    color: #515453;
+    border: transparent;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    cursor:pointer;
+    right:-50px;
+}
+
+.download{
+    background-color: #FFE164;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    color: #515453;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Segoe UI Symbol";
+    width: 100px;
+    height: 22px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor:pointer;
+}
+
+.download:hover {
+    background-color: white; 
+    color: #515453;
+    border: transparent;
+    border: #FFE164;
+    border-style: solid;
+    border-width: 1px;
+    cursor:pointer;
+    right:-50px;
+}
+
+text.header {
+    text-align: center;
+    font-family: "Neou";
+    font-size: 18px;
+    color: #515453;
+    
+}
+
+text.title {
+    text-align: center;
+    font-family: "Neou";
+    font-size: 22px;
+    color: #515453;
+    
+}
+
+text.subtitle {
+    text-align: center;
+    font-family: "Neou";
+    font-size: 15px;
+    color: #515453;
+    
+}
+
+text.normal {
+    text-align: center;
+    font-family: "Segoe UI Symbol";
+    font-size: 15px;
+    color: #515453;
+    
+}
+
+text.label {
+    text-align: center;
+    font-family: "Segoe UI Symbol";
+    font-size: 12px;
+    color: #515453;
+    
+}
+
+.vr {
+    width:0.5px;
+    background-color:#515453;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:150px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 340px;
+    background-color: #FFE164;
+    color: #515453;
+    font-size: 12px;
+    font-family: "Segoe UI Symbol";
+    text-align: left;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #FFE164 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+div.insrt-hdr{
+    background-color: #FFE164;
+    border-radius: 5px;
+    width:200px;
+    height: 20px;
+    float:right;
+    padding: 10px;
+}
+text.header2 {
+    text-align: center;
+    font-family: "Neou";
+    font-size: 18px;
+    color: white;
+}
+
+input[type=radio] {
+  -webkit-appearance:none;
+  width:20px;
+  height:20px;
+  border:1px solid darkgray;
+  border-radius:50%;
+  outline:none;
+  box-shadow:0 0 5px 0px gray inset;
+  cursor:pointer;
+}
+input[type=radio]:hover {
+  box-shadow:0 0 5px 0px orange inset;
+}
+
+input[type=radio]:before {
+  content:'';
+  display:block;
+  width:60%;
+  height:60%;
+  margin: 20% auto;    
+  border-radius:50%;  
+}
+
+input[type=radio]:checked:before {
+  background:goldenrod;
+}
+
+text.b-text {
+    font-family: "Segoe UI Symbol";
+    font-size: 16px;
+    color: #515453;
+}
+input[type=text] {
+    width: 75%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=number] {
+    width: 75%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+
+input[type=date] {
+    width: 40%;
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=date]:focus {
+    border: 3px solid #555;
+}
+
+textarea {
+    padding: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+}
